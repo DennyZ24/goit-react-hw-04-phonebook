@@ -1,0 +1,31 @@
+.list{
+  margin: 0;
+  padding: 0;
+  
+  list-style: none;
+}
+
+.item{
+  padding: 0;
+  margin: 0;
+}
+
+.item:not(:last-child){
+  margin-bottom: 10px;
+}
+
+.button{
+  margin-left: 20px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+
+  background-color: indianred;
+  border-radius: 5px;
+  border: none;
+}
+
+.button:hover{
+  transform: scale(1.1);
+}
