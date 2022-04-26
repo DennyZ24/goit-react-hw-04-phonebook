@@ -1,9 +1,7 @@
 import s from 'components/ContactsBook/ContactsBook.module.css'
 
 export default function ContactsBook({ contacts, onDeleteContact }) {
-  const hasContacts = contacts.length !== 0;
 
-  console.log(hasContacts);
   return (
     <ul className={s.list}>
       {contacts.map(contact => {
